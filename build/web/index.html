@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desglose de Monedas</title>
+    <link rel="stylesheet" href="./estilos/style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="title">
+      <h1>Desglose de Monedas</h1>
+    </div>
+    
+    <section id="form">
+      <form action="/devueltaServlet/desglose" method="post">
+        
+        <label for="montoInput">Ingrese la cantidad a desglosar:</label>
+        <input id="montoInput" required placeholder="Ej: 1700" type="number" name="cadena" class="numero" min="1"> 
+        <button type="submit">Desglosar</button>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
